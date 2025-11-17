@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Cruz López - Full Stack Developer</title>
+    <meta name="author" content="David Cruz López">
+    <meta name="description" content="Página de mi Curriculum Vitae">
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link href="css/main.css" rel="stylesheet" />
+    <script src="js/main.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">DC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 hero-content">
+                    <h1>Hola, soy David Cruz López</h1>
+                    <p class="subtitle">Full Stack Developer</p>
+                    <p>Desarrollador apasionado especializado en Laravel, PHP, JavaScript y tecnologías web modernas. Con más de 7 años de experiencia combinada en desarrollo y análisis agroindustrial.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-custom btn-primary-custom">Contáctame</a>
+                        <a href="#projects" class="btn-custom btn-outline-custom">Ver Proyectos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre Mí</h2>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <p class="lead">Soy un desarrollador Full Stack graduado del Instituto Superior José Antonio Echeverría (CUJAE) en La Habana, Cuba.</p>
+                    <p>Me especializo en el desarrollo web utilizando el framework Laravel, trabajando con tecnologías como PHP, JavaScript, CSS y HTML. Mi pasión es el desarrollo back end, donde considero que se tiene un gran impacto en los softwares y servicios necesarios para cualquier sistema.</p>
+                    <p>He trabajado en diversos proyectos, desde sistemas de gestión para gimnasios y empresas de transporte, hasta plataformas de comercio internacional. Anteriormente me desempeñé durante 7 años como analista agroindustrial, lo que me ha proporcionado una perspectiva única sobre la optimización de procesos y la toma de decisiones basada en datos.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="skill-item text-center">
+                                <i class="bi bi-code-slash"></i>
+                                <h5>Backend</h5>
+                                <p>Laravel, PHP, MySQL, PostgreSQL</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill-item text-center">
+                                <i class="bi bi-palette"></i>
+                                <h5>Frontend</h5>
+                                <p>HTML, CSS, JavaScript, Bootstrap, jQuery</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill-item text-center">
+                                <i class="bi bi-server"></i>
+                                <h5>APIs</h5>
+                                <p>REST APIs, Ajax, Integrations</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill-item text-center">
+                                <i class="bi bi-tools"></i>
+                                <h5>Herramientas</h5>
+                                <p>Git, Cloudflare, Trustpilot</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Experiencia</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4>Full Stack Developer</h4>
+                        <h6>Gym Barcelona - Gym & Boutique</h6>
+                        <p class="date">Agosto 2024 - Presente</p>
+                        <p>Desarrollé un sitio web personalizado con sistema de gestión integral para clientes, profesores y administradores, incluyendo calendario de reservas con confirmaciones por email.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4>Full Stack Developer</h4>
+                        <h6>Caribbean Supply Spa.</h6>
+                        <p class="date">Octubre 2024 - Diciembre 2024</p>
+                        <p>Diseñé sitio web para administración de servicios de importación y exportación desde/hacia Chile.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4>Backend Developer</h4>
+                        <h6>Mandao</h6>
+                        <p class="date">Mayo 2023 - Marzo 2024</p>
+                        <p>Desarrollé funcionalidades para sistema de mensajería de comida, implementando roles, permisos y gestión de mensajeros usando Laravel 8 y MySQL.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4>Full Stack Developer</h4>
+                        <h6>Havana Ship</h6>
+                        <p class="date">Abril 2022 - Septiembre 2023</p>
+                        <p>Gestión de envíos y remesas, integración con Cloudflare CDN y Trustpilot, desarrollo de subsistema para clientes mayoristas.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h4>Especialista en Uso Racional de Recursos</h4>
+                        <h6>Empresa Comercializadora de Tabaco "La Vega"</h6>
+                        <p class="date">Octubre 2022 - Octubre 2024</p>
+                        <p>Control, distribución y análisis de recursos energéticos a nivel nacional, optimización de eficiencia operativa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Proyectos Destacados</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <img src="https://gymbarcelona.com/assets/img/banner/bg.jpg?w=800" alt="Gym Barcelona">
+                        <div class="project-info">
+                            <h4>Gym Barcelona</h4>
+                            <p>Sistema de gestión integral para gimnasio con calendario de reservas, confirmaciones por email y panel de administración.</p>
+                            <div class="project-tags">
+                                <span class="tag">Laravel</span>
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <img src="https://flechataxiscuba.com/assets/img/hero-bg2.webp" alt="Fecha Taxis">
+                        <div class="project-info">
+                            <h4>Fecha Taxis</h4>
+                            <p>Plataforma web para servicios de taxi con sistema de reservas integrado y app móvil para facilitar el transporte.</p>
+                            <div class="project-tags">
+                                <span class="tag">Laravel</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">APIs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <img src="https://dartur-egzotyka.pl/assets/img/slider/slide(01).jpeg?w=800" alt="Dartur">
+                        <div class="project-info">
+                            <h4>Dartur - Buró de Viajes</h4>
+                            <p>Sitio web para agencia de viajes en Polonia con galería, testimonios, catálogo de viajes y sistema de contacto.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">jQuery</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <img src="https://havanaship.net/front/img/experience-img1gggg.png?w=800" alt="Havana Ship">
+                        <div class="project-info">
+                            <h4>Havana Ship</h4>
+                            <p>Sistema de gestión de envíos y remesas con reportes, gráficos, integración con Cloudflare y Trustpilot.</p>
+                            <div class="project-tags">
+                                <span class="tag">Laravel</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Cloudflare</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <img src="https://mandao.app/blog/wp-content/uploads/2021/11/mandao-pyme-delivery-food-service-cuba.jpg?w=800" alt="Mandao">
+                        <div class="project-info">
+                            <h4>Mandao</h4>
+                            <p>Sistema de administración para negocio de mensajería de comida con roles, permisos y gestión de mensajeros.</p>
+                            <div class="project-tags">
+                                <span class="tag">Laravel 8</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">Ajax</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <img src="https://caribbeansupply.cl/assets/img/slider1.jpg?w=800" alt="Caribbean Supply">
+                        <div class="project-info">
+                            <h4>Caribbean Supply</h4>
+                            <p>Plataforma web para gestión de servicios de importación y exportación internacional.</p>
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">Bootstrap</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contacto</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="bi bi-envelope"></i>
+                            <div>
+                                <h6>Email</h6>
+                                <p>davicruzlopez@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-geo-alt"></i>
+                            <div>
+                                <h6>Ubicación</h6>
+                                <p>La Habana, Cuba</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="bi bi-linkedin"></i>
+                            <div>
+                                <h6>LinkedIn</h6>
+                                <p><a href="https://www.linkedin.com/in/david-cruz-lópez-006731124" target="_blank" style="color: var(--primary-color);">Ver perfil</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Nombre" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Asunto" required>
+                            <textarea class="form-control" rows="5" placeholder="Mensaje" required></textarea>
+                            <button type="submit" class="btn btn-primary btn-custom" style="background: var(--primary-color); border: none;">
+                                Enviar Mensaje
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-3">
+                    <h4 style="color: var(--primary-color);">David Cruz López</h4>
+                    <p>Full Stack Developer apasionado por crear soluciones web innovadoras y eficientes.</p>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <div class="social-links">
+                        <a href="mailto:davicruzlopez@gmail.com"><i class="bi bi-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/david-cruz-lópez-006731124" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/tuusuario" target="_blank"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr style="background: rgba(255,255,255,0.1); margin: 30px 0;">
+            <div class="text-center">
+                <p>&copy; 2025 David Cruz López. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery 3.7 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
