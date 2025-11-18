@@ -317,6 +317,17 @@ section {
     margin: 5px 5px 5px 0;
 }
 
+/* Margen adicional entre columnas de proyectos */
+.projects-section .row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.projects-section .row > [class*='col-'] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* Contact Section */
 .contact-section {
     background: var(--light-color);
@@ -394,17 +405,31 @@ footer {
         font-size: 2.5rem;
     }
     
+    .timeline {
+        min-height: auto;
+        overflow-x: hidden;
+    }
+    
     .timeline::before {
-        left: 0;
+        left: 20px;
+    }
+    
+    .timeline-item {
+        margin-bottom: 30px;
+        overflow: hidden;
     }
     
     .timeline-content {
-        width: 100%;
+        width: calc(100% - 50px);
         float: none !important;
-        margin-left: 30px;
+        margin-left: 50px;
     }
     
     .section-title h2 {
         font-size: 2rem;
+    }
+    
+    .project-card {
+        margin-bottom: 20px;
     }
 }
