@@ -30,13 +30,17 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 80px;
+    overflow-x: clip;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--ink-2);
     background: var(--white);
-    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+    overflow-wrap: break-word;
     line-height: 1.7;
 }
 
